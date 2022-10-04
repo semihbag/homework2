@@ -1,11 +1,11 @@
-	//Name: Semih
-	//Surname: Bað
-	//Student ID: 150120070
-	
-	//Problem:
-	//Write a program that calculates personal income tax based on the given tax rates reported by The 
-	//Turkish Revenue Administration.
-	//Tax rates vary from year to year and by income
+//Name: Semih
+//Surname: BaÃ°
+//instagram:@smhbag
+
+//Problem:
+//Write a program that calculates personal income tax based on the given tax rates reported by The 
+//Turkish Revenue Administration.
+//Tax rates vary from year to year and by income
 
 //Add Scanner
 import java.util.Scanner;

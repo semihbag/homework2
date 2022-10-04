@@ -1,17 +1,17 @@
-	//Name: Semih
-	//Surname: Bað
-	//Student ID: 150120070
+//Name: Semih
+//Surname: BaÄŸ
+//instagram: @smhbag
 
-	//Problem:
-	//Write a program that checks ISBN-10. An ISBN-10 (International Standard Book Number) consists of 10 
-	//digits: ABCDEFKLMN. The last digit, Z, is a checksum, which is calculated from the other nine digits 
-	//using the following formula:
-	//((A*1) + (B*2) + (C*3) +(D*4) + (E*5) + (F*6) + (K*7) + (L*8) +( M*9))%11
+//Problem:
+//Write a program that checks ISBN-10. An ISBN-10 (International Standard Book Number) consists of 10 
+//digits: ABCDEFKLMN. The last digit, Z, is a checksum, which is calculated from the other nine digits 
+//using the following formula:
+//((A*1) + (B*2) + (C*3) +(D*4) + (E*5) + (F*6) + (K*7) + (L*8) +( M*9))%11
 
-	//If the checksum is 10, the last digit is denoted as X according to the ISBN-10 convention. Write a 
-	//program that prompts the user to enter the first 9 digits and displays the 10-digit ISBN (including 
-	//leading zeros). Your program should read the input as an integer.
-	
+//If the checksum is 10, the last digit is denoted as X according to the ISBN-10 convention. Write a 
+//program that prompts the user to enter the first 9 digits and displays the 10-digit ISBN (including 
+//leading zeros). Your program should read the input as an integer.
+
 //Add Scanner	
 import java.util.Scanner;	
 public class HW2_150120070_P1 {

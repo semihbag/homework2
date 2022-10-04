@@ -25,6 +25,7 @@ where
   • f is the day of the month.          
   • m is the month (3: March, 4: April, …, 12: December). January and February are counted as months 13 and 14 of the previous year.          
   • c is the century (i.e., year / 100).            
-  • y is the year of the century (i.e., year % 100).        
+  • y is the year of the century (i.e., year % 100). 
+  
 Note that the division in the formula performs an integer division. Write a program that prompts the user to enter a year, month, and day of the month, and displays the name of the day of the week.         
 (Hint: January and February are counted as 13 and 14 in the formula, so you need to convert the user input 1 to 13 and 2 to 14 for the month and change the year to the previous year.)         

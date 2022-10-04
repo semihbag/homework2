@@ -54,3 +54,47 @@ The rules for Table 1 are as follows:
 • If the income is below 600,000TL; the first 22,000 TL is taxed at rate 15% (3,300 TL), then next 27,000 TL is taxed at rate 20% (5,400 TL), then next 131,000 TL is taxed at rate 27% (35,370 TL) which makes 44,070 TL as a total, and the remaining will be taxed at rate 35%.          
 • If the income is equal or above 600,000TL; the first 22,000 TL is taxed at rate 15% (3,300 TL), then next 27,000 TL is taxed at rate 20% (5,400 TL), then next 131,000 TL is taxed at rate 27% (35,370 TL), then next 420,000 TL is taxed at rate 35% (147,000 TL) which makes 191,070 TL as a total, and the remaining will be taxed at rate 40%.          
 • Examples for income -> tax pairs in TL: 20,000 -> 3,000; 32,000 -> 5,300; 149,000 -> 35,700; 280,000 -> 79,070; 700,000 -> 231,070.       
+
+
+Sample Run 1:     
+2015 25000            
+Undefined year value        
+  
+Sample Run 2:     
+2020 0              
+Income must be > 0      
+              
+Sample Run 3:     
+2020 20000        
+Income: 20000.0       
+Tax amount: 3000.0        
+Income after tax: 17000.0       
+Real tax rate: 15.0%      
+                
+Sample Run 4:   
+2020 40500.75       
+Income: 40500.75      
+Tax amount: 7000.15       
+Income after tax: 33500.6         
+Real tax rate: 17.28%     
+              
+Sample Run 5:     
+2019 123456       
+Income: 123456.0        
+Tax amount: 29633.12        
+Income after tax: 93822.88        
+Real tax rate: 24.0%      
+                
+Sample Run 6:     
+2018 456789         
+Income: 456789.0        
+Tax amount: 147156.15         
+Income after tax: 309632.84         
+Real tax rate: 32.21%       
+                
+Sample Run 7:       
+2017 145500.75        
+Income: 145500.75       
+Tax amount: 39375.26          
+Income after tax: 106125.48         
+Real tax rate: 27.06%       

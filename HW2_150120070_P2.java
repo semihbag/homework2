@@ -1,15 +1,15 @@
-	//Name: Semih
-	//Surname: Bað
-	//Student ID: 150120070
+//Name: Semih
+//Surname: BaÄŸ
+//instagram:smhbag
 
-	//Problem:
-	//Write a program that prompts the user to enter the year, month, the day of the month and displays  day
-	//of the week (Monday,Thuesday.....)
+//Problem:
+//Write a program that prompts the user to enter the year, month, the day of the month and displays  day
+//of the week (Monday,Thuesday.....)
 
-	//The formula:
-	//Day = ((day of month) + (26*(month + 1))/10 + y + y/4 + c/4 + 5*c) % 7        y: year, c:century
-	//Hint: January and February are counted as 13 and 14 in the formula, so you need to convert the user 
-	//input 1 to 13 and 2 to 14 for the month and change the year to the previous year.
+//The formula:
+//Day = ((day of month) + (26*(month + 1))/10 + y + y/4 + c/4 + 5*c) % 7        y: year, c:century
+//Hint: January and February are counted as 13 and 14 in the formula, so you need to convert the user 
+//input 1 to 13 and 2 to 14 for the month and change the year to the previous year.
 
 //Add Scanner
 import java.util.Scanner;
